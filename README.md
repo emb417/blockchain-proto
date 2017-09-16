@@ -6,7 +6,7 @@ Distributed immutable ledger using consensus based security commonly encrypted v
 Blockchain by Tiana Laurence (co-founder of Factom)
 > Decentralization is seen as the perfect solution to corrupt and oppressive central authorities.
 
-![Blockchain Principles](Blockchain Principles.png)
+![Blockchain Principles](Blockchain-Principles.png)
 
 Utilize private blockchain with off-chain data storage and on-chain identity / security:
 * Check-in to register a blockchain identity (gen QR code)
@@ -16,7 +16,7 @@ Utilize private blockchain with off-chain data storage and on-chain identity / s
 * Need symmetric-key or public-key or [homomorphic authentication](https://www.infoq.com/articles/cloud-data-auditing) for multi-party access
 * Public blockchain may be needed for external contributions
 
-![Smart Contracts](Smart Contracts.png)
+![Smart Contracts](Smart-Contracts.png)
 
 [Joseph Pham via Quora](https://www.quora.com/How-will-Enterprise-Blockchain-change-the-way-future-enterprise-applications-are-architected)
 > Blockchain systems could be configured to enable a securely signed, data validated and "trustless" verification protocol, that would enable source and receiving systems to create secure handover & transmission of data feeds, without exposing it to internal employees and significantly reduce the risk of outside interception, interference or exploitation.
