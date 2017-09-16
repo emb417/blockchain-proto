@@ -1,0 +1,27 @@
+mkdir ~/blockchain
+mkdir ~/blockchain/data
+
+geth account new
+-> de043ff466906d4ff4091b384240eb90503794b4
+
+geth account new
+-> 20c994971534e248489d4c5d59179ae014e4a64f
+
+geth --datadir "~/blockchain/data/" init TestGenesis4.json
+
+geth \
+--mine \
+--nodiscover \
+--maxpeers 0 \
+--networkid 3175 \
+--rpc \
+--rpcport "1337" \
+--rpccorsdomain "*"
+
+curl -X POST --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":67}' http://localhost:1337
+-> {"jsonrpc":"2.0","id":67,"result":"Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.8.3"}
+
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x20c994971534e248489d4c5d59179ae014e4a64f", "latest"],"id":1}' http://localhost:1337
+
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0xde043ff466906d4ff4091b384240eb90503794b4", "latest"],"id":2}' http://localhost:1337
+-> {"jsonrpc":"2.0","id":1,"result":"0x0"}
