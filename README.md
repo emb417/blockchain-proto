@@ -28,6 +28,14 @@ Utilize private blockchain with off-chain data storage and on-chain identity / s
 [Proof-of-Authority-Chains](https://github.com/paritytech/parity/wiki/Proof-of-Authority-Chains) are used for private chain setups, where specific nodes are authorized to create new blocks and secure the network.
 
 ## References
+* [YouBase.io](https://www.youbase.io/)
+  * consumer centric identity and digital access rights management
+  * interoperability - data size limitations (off-chain)
+  * scheduling / anonymous subject selection process
+  * custodian of data sources
+  * addressable content storage
+  * need 2 of 3 keys to decrypt
+  * need to add expiration
 * [List of Dapps](https://dapps.ethercasts.com/)
 * [Factom](https://www.factom.com/) - Blockchain for the Enterprise
   * [Factom Open Source](https://github.com/FactomProject/factomd)
