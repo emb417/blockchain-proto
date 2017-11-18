@@ -28,6 +28,8 @@ Utilize private blockchain with off-chain data storage and on-chain identity / s
 [Proof-of-Authority-Chains](https://github.com/paritytech/parity/wiki/Proof-of-Authority-Chains) are used for private chain setups, where specific nodes are authorized to create new blocks and secure the network.
 
 ## References
+* [Burst iQ](https://www.burstiq.com)
+  * big data and analytics
 * [YouBase.io](https://www.youbase.io/)
   * consumer centric identity and digital access rights management
   * interoperability - data size limitations (off-chain)
