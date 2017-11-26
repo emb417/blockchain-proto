@@ -28,6 +28,7 @@ Utilize private blockchain with off-chain data storage and on-chain identity / s
 [Proof-of-Authority-Chains](https://github.com/paritytech/parity/wiki/Proof-of-Authority-Chains) are used for private chain setups, where specific nodes are authorized to create new blocks and secure the network.
 
 ## References
+* There are smart contract platforms like Ethereum, NEO and Qtum, there are decentralized storage networks like Storj, Sia Coin and Filecoin and there are decentralized exchange platforms like Waves, Bitshares and others.
 * [Waves](https://wavesplatform.com)
 * [Burst iQ](https://www.burstiq.com)
   * big data and analytics
