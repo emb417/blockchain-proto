@@ -1,4 +1,4 @@
-# blockchain-proto
+# blockchain-research
 
 ## Notes
 Distributed immutable ledger using consensus based security commonly encrypted via SHA256
